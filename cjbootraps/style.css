@@ -1,0 +1,15 @@
+@import url('http:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+.box-area{
+    width: 1000px;
+    height: 600px;
+}
+
+.left-box{
+    background-color: lightpink;
+}

@@ -1,0 +1,271 @@
+@import url('http:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lines ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 100px;
+    font-size: 15px;
+    transition: 0.4s ease;
+}
+ul li{
+    display: inline-block
+}
+ul li a{
+    text-decoration: none;
+    color: #002B5B;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+.main .lines ul li a:hover{
+    background-color: #C8C8C8;
+    border-radius: 5px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-top: 15px;
+    margin-left: 100px;
+}
+    
+.logo{
+    color: #002B5B;
+    font-size: 50px;
+}
+.lines .menu-btn div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.lines .line2 li{
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.patientportal ul{
+    float: left;
+    margin-top: 130px;
+    font-size: 30px ;
+
+}
+.patientportal .portal li{
+    font-size: 50px ;
+    margin-top: -50px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: transparent;
+    border: 2px solid #002B5B;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 120px;
+    text-align: center;
+}
+
+.form h2{
+    width: 209px;
+    font-family: sans-serif;
+    color: #002B5B;
+
+}
+
+.form input{
+    width: 320px;
+    height: 40px;
+    border: 1px solid #002B5B;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 10px;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #7f7f7f;
+}
+
+.btn{
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+    background: #00337C;
+    cursor: pointer;
+    color: #fff;
+    border-color: #004db9;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #004db9;
+    color: #00337C;
+}
+
+.form i{
+    position: absolute;
+    right: 55px;
+    transform: translateY(-30px);
+    font-size: 20px;
+}
+.remember-forgot {
+    font-size: 12px;
+}
+
+.form .remember-forgot input{
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.remember-forgot span{
+    accent-color:#00337C;
+    color: #0C134F;
+}
+.remember-forgot a{
+    color: #0C134F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.form .register-link{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.register-link a{
+    text-decoration: none;
+    color: #0C134F;
+    font-weight: bold;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+}
+
+.form .or{
+    font-size: 13px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0C134F;
+}
+
+.socials ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.socials img{
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.socials .fb img{
+    margin-left: 65px;
+}
+
+@media screen and (max-width: 600px)
+{
+  
+}
+.socials1{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    background: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.google{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
+    margin-left: 10px;
+} 
+
+.pic1{
+    position: relative;
+    color: #044fa5;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.socials1:hover{
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 3px 0 #1f212348, 0 4px 4px 0 #1f212348;
+}
+
+.socials2{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;   
+    display: flex;
+    margin-right: 100px;
+}
+
+.fb{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.pic2{
+    position: relative;
+    color: #0075ff;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.socials2:hover{
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 3px 0 #1f212348, 0 4px 4px 0 #1f212348;
+}
+
+
+
+
+
+
+
+
