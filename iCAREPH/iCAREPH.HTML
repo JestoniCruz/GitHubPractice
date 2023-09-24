@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCAREPH1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="demo2.js"></script>
+</head> 
+<body>
+     <div class="container">
+        <nav>
+            <img src="icarelogo.png" class="logo">
+            <ul id="menulist">
+                <div class="line1">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Search</a></li>  
+                </div>                      
+                <div class="line2">
+                    <b><li><a href="#">Online Services</a></li></b>
+                    <b><li><a href="#">Login</a></li></b>
+                </div>  
+            </ul>
+            <img src="menu-icon.png" class="menu-icon"
+             onclick="togglemenu()">
+        </nav>
+
+        <div class="content">
+            <div class="patientportal">
+               <ul>
+                   <div class="patient">
+                       <li><a href="#">PATIENT</a></li><br>
+                   </div>
+                   <div class="portal">
+                       <b><li><a href="#">PORTAL</a></li></b>
+                   </div>                      
+               </ul>
+           </div>                  
+        </div>
+
+        
+        <div class="form">
+            <h2>WELCOME BACK</h2>
+
+            <input  id="email" name="email" placeholder="Email Address">
+            <input  id="password" name="" placeholder="Password">
+
+            <div class="remember-forgot">
+                <span><input type="checkbox"> Keep me logged in</span>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button class="btn" id="btnSignin" onclick="SignIn()"><a href=#>Sign In</a></button> 
+            <div class="register-link">
+                <p>Don`t have an account yet? <a href="#">Sign Up</a></p>
+            </div>
+            <p class="or">Or login with</p>
+            
+            <div class="socials">
+                <a href="#" class="google">
+                    <img src="google.png"> Google
+                </a>
+                <a href="#" class="fb">
+                    <img src="facebook.png"> Facebook
+                </a>
+            </div>
+            
+        </div>
+     </div>
+     
+     
+</body>
+<script>
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu(){
+            if(menulist.style.maxHeight === "0px")
+            {
+                 menulist.style.maxHeight = "200px";
+            }
+            else{
+                menulist.style.maxHeight = "0px"
+            }
+        }
+ </script>
+</html>
